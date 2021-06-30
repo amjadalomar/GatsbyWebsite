@@ -4,20 +4,20 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: '', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my website!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Amjad Al-Omar',
+  subtitle: 'cool dude',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile1.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project1.jpg',
     title: '',
     info: '',
     info2: '',
