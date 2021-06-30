@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: 'Welcome to my website!', // e.g: Welcome to my website
+  title: 'Amjad Al-Omar', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website! Please come in the waters fine!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hello! I am ',
   name: 'Amjad Al-Omar',
-  subtitle: 'cool dude',
+  subtitle: 'Super Cool Dude',
   cta: '',
 };
 
@@ -28,21 +28,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project3.jpg',
+    title: 'Software Engineering Inter at Duoserve Inc.',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://www.duoserve.com/scheduling-software/Landing/Landing2',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project1.jpg',
-    title: '',
+    title: 'Frontend Developer for EZStudy',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/amjadalomar/EZStudy',
+    repo: 'https://github.com/amjadalomar/EZStudy', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'amjadalomar99@yahoo.com',
 };
 
 // FOOTER DATA
@@ -68,27 +68,27 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/_amjad99_',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/amjawnz/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/amjad-al-omar/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/amjadalomar',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
