@@ -9,18 +9,18 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello! I am ',
+  title: 'Hello, I\'m ',
   name: 'Amjad Al-Omar',
-  subtitle: 'Super Cool Dude',
+  subtitle: 'I aim to improve and learn from the best and the brightest!',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile1.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Hi hi! My name is Amjad Al-Omar. I am currently a 4th year Mathematics-Computer Science student at the University of California San Diego. ',
+  paragraphTwo: 'I am a passionate and driven Software Engineer with a specialization in Back-End development and Infrastructure. I strive to improve my skillset by seeking out learning oppurtinities in my personal and professional life. My professional goals are to ultimately work as a successful Back-End Engineer in the Tech Industry.',
+  paragraphThree: 'When I am not studying, I like to relax and enjoy some peace and quiet. If I ever get the chance, I play basketball and soccer with my friends or watch anime. Some other hobbies of mine include going on runs, playing board games, and doing puzzles.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project3.jpg',
-    title: 'Software Engineering Inter at Duoserve Inc.',
+    title: 'Software Engineering Intern at Duoserve Inc.',
     info: '',
     info2: '',
     url: 'http://www.duoserve.com/scheduling-software/Landing/Landing2',
@@ -38,9 +38,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project1.jpg',
-    title: 'Frontend Developer for EZStudy',
-    info: '',
-    info2: '',
+    title: 'Software Engineer for EZStudy',
+    info: 'Created a full-stack web application for SDHacks 2019 to help students study for their exams by visually parsing student notes and providing study resources based on key terms extracted by AWS Textract.',
+    info2: 'Designed an interactive front-end with React, a RESTful back-end for image processing with Node.js and Express, and a database with MongoDB for storing study resources given to users matching their notes.',
     url: 'https://github.com/amjadalomar/EZStudy',
     repo: 'https://github.com/amjadalomar/EZStudy', // if no repo, the button will not show up
   },
