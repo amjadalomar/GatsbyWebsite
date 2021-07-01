@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hi, I\'m ',
   name: 'Amjad Al-Omar',
-  subtitle: 'I strive to become a succesful programmer or something like that :)',
+  subtitle: 'Welcome to my world!',
   cta: '',
 };
 
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile1.jpg',
   paragraphOne: 'Hello hello! My name is Amjad Al-Omar. I am currently a 4th year Mathematics-Computer Science student at the University of California San Diego. ',
-  paragraphTwo: 'I am a hardworking and passtionate Software Engineer with a specialization in Back-End development and Infrastructure. I strive to improve my skillset by seeking out learning oppurtinities in my personal and professional life. My professional goals are to ultimately work as a successful Back-End Engineer in the Tech Industry.',
-  paragraphThree: 'When I am not studying, I like to relax and enjoy some peace and quiet. If I ever get the chance, I play basketball and soccer with my friends or watch anime. Some other hobbies of mine include going on runs, playing board games, and doing puzzles.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphTwo: 'I am a hardworking and passionate aspiring Software Engineer with a specialization in Back-End Development and Infrastructure. I strive to improve my skillset by seeking out learning opportunities in my personal and professional life. My professional goals are to ultimately work as a successful Back-End Engineer in the Tech Industry.',
+  paragraphThree: 'When I am not studying, I enjoy peaceful walks around the park. If I ever get the chance, I play basketball and soccer with my friends or watch anime. Some other hobbies of mine include going on runs, playing board games, and doing puzzles.',
+  resume: 'AmjadAlOmarResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,28 +30,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'project3.jpg',
     title: 'Software Engineering Intern at Duoserve Inc.',
-    info: '',
-    info2: '',
+    info: 'Aided in CI/CD of a calendar-based enterprise management application on iOS and Android for 2000+ companies. Created reusable generic base frameworks that will be incorporated into other future apps within the company. Fully constructed mock database and unit tested CRUD functionality on the user side for the entire application.',
+    info2: 'Assisted in implementing a gRPC backend and connected to MySQL database with over 10000+ appointments. Designed and fully constructed 5+ recurring screens and programmed settings, recurring appointments, and client/client list screens and their functionality.',
     url: 'http://www.duoserve.com/scheduling-software/Landing/Landing2',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project1.jpg',
-    title: 'Software Engineer for EZStudy',
+    title: 'Team Member for EZStudy',
     info: 'Created a full-stack web application for SDHacks 2019 to help students study for their exams by visually parsing student notes and providing study resources based on key terms extracted by AWS Textract.',
     info2: 'Designed an interactive front-end with React, a RESTful back-end for image processing with Node.js and Express, and a database with MongoDB for storing study resources given to users matching their notes.',
     url: 'https://github.com/amjadalomar/EZStudy',
     repo: 'https://github.com/amjadalomar/EZStudy', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
