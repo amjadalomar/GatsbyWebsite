@@ -9,17 +9,17 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello, I\'m ',
+  title: 'Hi, I\'m ',
   name: 'Amjad Al-Omar',
-  subtitle: 'I aim to improve and learn from the best and the brightest!',
+  subtitle: 'I strive to become a succesful programmer or something like that :)',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile1.jpg',
-  paragraphOne: 'Hi hi! My name is Amjad Al-Omar. I am currently a 4th year Mathematics-Computer Science student at the University of California San Diego. ',
-  paragraphTwo: 'I am a passionate and driven Software Engineer with a specialization in Back-End development and Infrastructure. I strive to improve my skillset by seeking out learning oppurtinities in my personal and professional life. My professional goals are to ultimately work as a successful Back-End Engineer in the Tech Industry.',
+  paragraphOne: 'Hello hello! My name is Amjad Al-Omar. I am currently a 4th year Mathematics-Computer Science student at the University of California San Diego. ',
+  paragraphTwo: 'I am a hardworking and passtionate Software Engineer with a specialization in Back-End development and Infrastructure. I strive to improve my skillset by seeking out learning oppurtinities in my personal and professional life. My professional goals are to ultimately work as a successful Back-End Engineer in the Tech Industry.',
   paragraphThree: 'When I am not studying, I like to relax and enjoy some peace and quiet. If I ever get the chance, I play basketball and soccer with my friends or watch anime. Some other hobbies of mine include going on runs, playing board games, and doing puzzles.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
