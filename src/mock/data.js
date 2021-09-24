@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project4.jpg',
+    title: 'YelpCamp - Personal Project',
+    info: 'Built a fully functioning, full-stack web application where users can submit and review campgrounds. Designed and implemented RESTful API and MVC patterns using Node and Express.',
+    info2: 'Implemented MongoDB infrastructure to store users, campgrounds, reviews, and other relevant information. Utilized CRUD API endpoints and deployed using MongoDB Atlas and Heroku.',
+    url: 'https://young-journey-43826.herokuapp.com/',
+    repo: 'https://github.com/amjadalomar/YelpCamp', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project3.jpg',
     title: 'Software Engineering Intern at Duoserve Inc.',
     info: 'Aided in CI/CD of a calendar-based enterprise management application on iOS and Android for 2000+ companies. Created reusable generic base frameworks that will be incorporated into other future apps within the company. Fully constructed mock database and unit tested CRUD functionality on the user side for the entire application.',
@@ -41,7 +50,7 @@ export const projectsData = [
     title: 'Team Member for EZStudy',
     info: 'Created a full-stack web application for SDHacks 2019 to help students study for their exams by visually parsing student notes and providing study resources based on key terms extracted by AWS Textract.',
     info2: 'Designed an interactive front-end with React, a RESTful back-end for image processing with Node.js and Express, and a database with MongoDB for storing study resources given to users matching their notes.',
-    url: 'https://github.com/amjadalomar/EZStudy',
+    url: '',
     repo: 'https://github.com/amjadalomar/EZStudy', // if no repo, the button will not show up
   },
 ];
