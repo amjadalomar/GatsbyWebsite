@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Hello hello! My name is Amjad Al-Omar. I am currently a 4th year Mathematics-Computer Science student at the University of California San Diego. ',
   paragraphTwo: 'I am a hardworking and passionate aspiring Software Engineer with a specialization in Back-End Development and Infrastructure. I strive to improve my skillset by seeking out learning opportunities in my personal and professional life. My professional goals are to ultimately work as a successful Back-End Engineer in the Tech Industry.',
   paragraphThree: 'When I am not studying, I enjoy peaceful walks around the park. If I ever get the chance, I play basketball and soccer with my friends or watch anime. Some other hobbies of mine include going on runs, playing board games, and doing puzzles.',
-  resume: 'AmjadAlOmarResume.pdf', // if no resume, the button will not show up
+  resume: 'AmjadsResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
