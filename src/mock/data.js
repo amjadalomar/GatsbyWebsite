@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project3.jpg',
-    title: 'Software Enginer at Duoserve Inc.',
+    title: 'Software Engineer at Duoserve Inc.',
     info: 'Aided in CI/CD of a calendar-based enterprise management application on iOS and Android for 2000+ companies. Created reusable generic base frameworks that will be incorporated into other future apps within the company. Fully constructed mock database and unit tested CRUD functionality on the user side for the entire application.',
     info2: 'Assisted in implementing a gRPC backend and connected to MySQL database with over 10000+ appointments. Designed and fully constructed 5+ recurring screens and programmed settings, recurring appointments, and client/client list screens and their functionality.',
     url: 'http://www.duoserve.com/scheduling-software/Landing/Landing2',
