@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'devildishes.jpg',
-    title: 'DevilDishes',
+    title: 'DevilDishes - Team Leader/Backend Engineer',
     info: 'Lead team of 10 software developers in designing, task delegation, QA testing, and server side implementation. Developed RESTful full stack web application where users can create and view recipes using Node and Express.',
     info2: 'Implemented MongoDB infrastructure using Spoonacular API with 5000+ recipes and users. Created CI/CD build pipeline and deployed using MongoDB Atlas and Netlify.',
     url: 'https://devildishes.netlify.app/',
@@ -38,7 +38,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project4.jpg',
-    title: 'YelpCamp - Personal Project',
+    title: 'YelpCamp - Software Developer',
     info: 'Built a fully functioning, full-stack web application where users can submit and review campgrounds. Designed and implemented RESTful API and MVC patterns using Node and Express.',
     info2: 'Implemented MongoDB infrastructure to store users, campgrounds, reviews, and other relevant information. Utilized CRUD API endpoints and deployed using MongoDB Atlas and Heroku.',
     url: 'https://young-journey-43826.herokuapp.com/',
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project3.jpg',
-    title: 'Software Engineering Intern at Duoserve Inc.',
+    title: 'Software Enginer at Duoserve Inc.',
     info: 'Aided in CI/CD of a calendar-based enterprise management application on iOS and Android for 2000+ companies. Created reusable generic base frameworks that will be incorporated into other future apps within the company. Fully constructed mock database and unit tested CRUD functionality on the user side for the entire application.',
     info2: 'Assisted in implementing a gRPC backend and connected to MySQL database with over 10000+ appointments. Designed and fully constructed 5+ recurring screens and programmed settings, recurring appointments, and client/client list screens and their functionality.',
     url: 'http://www.duoserve.com/scheduling-software/Landing/Landing2',
